@@ -1,10 +1,10 @@
 /*
  *  Universal power supply monitor class
  *
+ *  Copyright (C) 2015 XiaoMi, Inc.
  *  Copyright © 2007  Anton Vorontsov <cbou@mail.ru>
  *  Copyright © 2004  Szabolcs Gyurko
  *  Copyright © 2003  Ian Molton <spyro@f2s.com>
- *  Copyright (C) 2015 XiaoMi, Inc.
  *
  *  Modified: 2004, Oct     Szabolcs Gyurko
  *
@@ -346,3 +346,4 @@ static inline bool power_supply_is_watt_property(enum power_supply_property psp)
 }
 
 #endif /* __LINUX_POWER_SUPPLY_H__ */
+

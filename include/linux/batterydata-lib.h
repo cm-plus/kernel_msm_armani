@@ -22,7 +22,7 @@
 #define PC_CC_COLS             13
 
 #define PC_TEMP_ROWS		31
-#define PC_TEMP_COLS		8
+#define PC_TEMP_COLS		11
 
 #define MAX_SINGLE_LUT_COLS	20
 
@@ -183,3 +183,4 @@ static inline int is_between(int left, int right, int value)
 #endif
 
 #endif
+

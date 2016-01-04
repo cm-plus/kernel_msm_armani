@@ -1,5 +1,4 @@
 /* Copyright (c) 2012-2014, The Linux Foundation. All rights reserved.
- * Copyright (C) 2015 XiaoMi, Inc.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -234,6 +233,7 @@ int qpnp_pon_system_pwr_off(enum pon_power_off_type type)
 			QPNP_PON_REVISION2(pon->base), rc);
 		return rc;
 	}
+	
 	/*
 	* Set PON_DEBOUNCE_TIMER to 500ms before power off
 	*/
@@ -1331,3 +1331,4 @@ module_exit(qpnp_pon_exit);
 
 MODULE_DESCRIPTION("QPNP PMIC POWER-ON driver");
 MODULE_LICENSE("GPL v2");
+
